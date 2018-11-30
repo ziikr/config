@@ -1,0 +1,27 @@
+{
+    "name": "ziikr/config",
+    "description": "The Ziikr Config package.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yoogr",
+            "email": "yoogr34@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "illuminate/console": "5.6.*",
+        "illuminate/database": "5.6.*",
+        "illuminate/support": "5.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ziikr\\Config\\": ""
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
